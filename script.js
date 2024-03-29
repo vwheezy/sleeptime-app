@@ -22,7 +22,7 @@ output.innerHTML = `
 function zzzOnClick() {
     let output = document.querySelector(".output");
     output.style.display = "block";
-    let hours = document.querySelector("#output");
+    let hours = document.querySelector(".output");
     hours.innerText = ""; // cleanup existing content
   
     // get current time
